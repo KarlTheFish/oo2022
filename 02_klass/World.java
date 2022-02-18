@@ -1,6 +1,6 @@
 public class World {
-    int Height;
     int Width;
+    int Height;
 
     public World(int width, int height){
         this.Width = width;
