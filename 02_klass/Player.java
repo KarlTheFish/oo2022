@@ -1,6 +1,6 @@
 public class Player {
-    int playerX = generateWorldCoords(worldWidth);
-    int playerY = generateWorldCoords(worldHeight);
+    int playerX;
+    int playerY;
 
     Direction direction = Direction.UP;
 
