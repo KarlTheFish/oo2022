@@ -1,0 +1,5 @@
+Teisendamine
+
+* Luua klass, kus oleksid funktsioonid teisendada arv kümnendsüsteemist kahendsüsteemi, kaheksandsüsteemi, kuueteistkümnendsüsteemi
+* Samuti tagasi nendest
+* Omavahel ka nt kümnendsüsteemist kuueteistkümnendsüsteemi, kaheksandsüsteemist kümnendsüsteemi jne (kõik seosed)
