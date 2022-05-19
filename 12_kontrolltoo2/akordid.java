@@ -1,10 +1,15 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class akordid {
     public static void main(String[] args){
-        Noodid noodid = new Noodid("G");
-        noodid.TaktiNoodid();
 
-        System.out.println("Kolmköla");
-        Kolmkõla test = new Kolmkõla(60, "C");
-        System.out.println(test.TähtAkord("C"));
+        List<String> test1 = new ArrayList<>(Arrays.asList("C", "E", "D"));
+        Lugu lugu = new Lugu(test1, true);
+        lugu.Takt(true);
+        lugu.Takt(false);
+
+
     }
 }

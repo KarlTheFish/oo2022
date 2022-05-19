@@ -12,6 +12,6 @@ Alates 60st: C C# D Eb E F F# G G# A B H C
 Lisa Kolmkõlale ka konstruktor, kus antakse ette akordi tähtnimetus ning selle järgi leitakse akordi põhitoon arvuna.
 Samuti on võimalik akordi noodid trükkida tähtnimedega.
 
-Koosta klass Lugu, kuhu iga takti jaoks saab lisada kolmkõlaDuur eksemplari.
-Veebilehele parameetrina antud kolmkõlatähtede põhjal väljastatakse Loo klassi eksemplari kaudu vastavalt
-kasutaja valikule kas mängitavad noodinumbrid või -nimed. Kontrolli automaattestidega.
+Koosta klass Lugu, kuhu iga takti jaoks saab lisada kolmkõla eksemplari.
+Klassist parameetrina antud kolmkõlatähtede põhjal väljastatakse Loo klassi eksemplari kaudu vastavalt kasutaja valikule
+kas mängitavad noodinumbrid või -nimed. Kontrolli automaattestidega.

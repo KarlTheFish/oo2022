@@ -8,7 +8,7 @@ public class Kolmkõla {
     int pohitoon;
     String täht;
     int MIDIvalue = 100;
-    List<String> Tähed = new ArrayList<>(Arrays.asList("C","C#","D","Eb","E","F","F#","G","G#","A","B","H","C"));
+    List<String> Tähed = new ArrayList<>(Arrays.asList("C","C#","D","Eb","E","F","F#","G","G#","A","B","H"));
 
     public Kolmkõla(int pohitoon, String täht){
         this.pohitoon = pohitoon;
@@ -38,8 +38,13 @@ public class Kolmkõla {
     }
 
     public String MIDItoTäht(){
-        String Täht = Tähed.get(pohitoon - 60);
-        return Täht;
+        if((pohitoon - 60) > 12){
+            täht = Tähed.get(pohitoon - 72);
+        }
+        else {
+            täht = Tähed.get(pohitoon - 60);
+        }
+        return täht;
     }
 
     public List<String> TähtAkord(String täht){
@@ -47,7 +52,6 @@ public class Kolmkõla {
         List<Integer>noodid = Toonid();
         for (int i = 0; i < Toonid().size(); i++) {
             pohitoon = noodid.get(i);
-            System.out.println(pohitoon);
             TähtAkord.add(MIDItoTäht());
         }
         return TähtAkord;

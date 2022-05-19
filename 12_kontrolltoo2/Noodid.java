@@ -22,7 +22,6 @@ public class Noodid {
             GKolmKõla gKolmKõla = new GKolmKõla(67, "G");
             akord = gKolmKõla.Toonid();
         }
-        System.out.println(akord);
         return akord;
     }
 }
