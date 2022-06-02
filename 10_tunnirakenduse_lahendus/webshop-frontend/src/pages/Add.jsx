@@ -5,7 +5,7 @@ function Add(){
     }
 
     return(<div>
-        <button onClick={() => addProduct()}></button>
+        <button onClick={() => addProduct()}/>
     </div>)
 }
 
